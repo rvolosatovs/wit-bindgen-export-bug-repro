@@ -1,0 +1,6 @@
+package repro:component@0.1.0;
+
+world component {
+    export wasi:io/poll@0.2.1;
+    export wasi:http/types@0.2.1;
+}
